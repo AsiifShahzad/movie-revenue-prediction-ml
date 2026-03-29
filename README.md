@@ -1,4 +1,4 @@
-# 📊 Job Market Analytics Platform
+# Job Market Analytics Platform
 
 > Automated pipeline that extracts real-time job market trends, in-demand skills, and salary signals from 50K+ live records — reducing manual analysis time by 70%.
 
@@ -8,13 +8,13 @@
 
 ---
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Job seekers and analysts waste hours manually scanning job boards to identify trending roles, required skills, and salary benchmarks. This platform automates the entire pipeline — from raw data collection to actionable visual insights — in a fully repeatable, scalable way.
 
 ---
 
-## 🎯 Key Results
+## Key Results
 
 | Metric | Result |
 |--------|--------|
@@ -25,7 +25,7 @@ Job seekers and analysts waste hours manually scanning job boards to identify tr
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 Raw Job Data (CSV/SQL)
@@ -58,7 +58,7 @@ Raw Job Data (CSV/SQL)
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer | Tools |
 |-------|-------|
@@ -71,7 +71,7 @@ Raw Job Data (CSV/SQL)
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Automated ingestion** — loads job data from CSV exports or direct SQL queries
 - **Skill frequency ranking** — extracts and ranks 200+ technical skills by demand
@@ -82,31 +82,7 @@ Raw Job Data (CSV/SQL)
 
 ---
 
-## 📁 Project Structure
-
-```
-job-market-analytics/
-├── data/
-│   ├── raw/               # Raw CSV/SQL dumps
-│   └── processed/         # Cleaned datasets
-├── notebooks/
-│   ├── 01_eda.ipynb       # Exploratory Data Analysis
-│   ├── 02_cleaning.ipynb  # Data cleaning pipeline
-│   └── 03_analysis.ipynb  # Trend & skill analysis
-├── src/
-│   ├── ingest.py          # Data loading utilities
-│   ├── clean.py           # Cleaning functions
-│   ├── extract_skills.py  # NLP skill extractor
-│   └── analyze.py         # Aggregation & ranking logic
-├── dashboard/
-│   └── job_market.pbix    # Power BI report file
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🛠️ Setup & Usage
+## Setup & Usage
 
 ```bash
 # 1. Clone the repo
@@ -131,7 +107,7 @@ python src/analyze.py
 
 ---
 
-## 📊 Sample Insights
+## Sample Insights
 
 - **Top 5 in-demand skills:** Python, SQL, Machine Learning, Power BI, Docker
 - **Fastest growing role:** AI/ML Engineer (+38% YoY in listings)
